@@ -1,0 +1,95 @@
+.heading {
+    color: white;
+
+    background-color: rgb(19, 9, 9);
+    width: auto;
+    height: auto;
+    text-align: center;
+
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+.shadowed {
+
+    background-color: rgb(216, 27, 216);
+    width: auto;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(8, 2, 2, 0.932);
+    /* You can adjust the shadow properties as needed */
+    padding: 20px;
+    /* Add some padding to make the shadow more visible */
+
+}
+
+body {
+    background-image: linear-gradient(#e182d9, #e9ebdc, #3407d6)
+}
+
+
+
+
+.list {
+
+
+    padding: 50px;
+    background-color: rgb(209, 216, 104);
+
+
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(8, 2, 2, 0.932);
+    width: fit-content;
+
+    margin: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name: list;
+    animation-duration: 1s;
+
+}
+
+
+.about {
+    text-align: center;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
